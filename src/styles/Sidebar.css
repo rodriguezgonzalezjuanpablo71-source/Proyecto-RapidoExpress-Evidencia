@@ -1,0 +1,29 @@
+.sidebar{
+    width:250px;
+    background:#1f2937;
+    color:white;
+
+    display:flex;
+    flex-direction:column;
+
+    padding:20px;
+}
+
+.logo{
+    margin-bottom:30px;
+}
+
+.sidebar nav{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+.sidebar a{
+    color:white;
+    text-decoration:none;
+}
+
+.logout{
+    margin-top:auto;
+}
