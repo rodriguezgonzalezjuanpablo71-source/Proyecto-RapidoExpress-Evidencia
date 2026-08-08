@@ -1,17 +1,13 @@
 import Sidebar from "../components/Sidebar";
 
-import "../styles/Layout.css";
-
 function MainLayout({ children }) {
   return (
     <div className="layout">
 
       <Sidebar />
 
-      <main className="content">
-
+      <main className="main-content">
         {children}
-
       </main>
 
     </div>

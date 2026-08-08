@@ -1,4 +1,4 @@
-import dashboardData from "../data/dashboardData";
+import { dashboardData } from "../data/dashboardData";
 
 export function obtenerDashboard() {
   return dashboardData;
