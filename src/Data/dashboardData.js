@@ -23,5 +23,6 @@ export const dashboardData = {
     "Nuevo envío registrado",
     "Cliente registrado",
     "Envío actualizado",
+    "Juan Perez envio retrasado",
   ],
 };

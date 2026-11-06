@@ -1,9 +1,36 @@
-.layout{
-    display:flex;
-    min-height:100vh;
+/* ========================================
+   RAPIDOEXPRESS - ESTRUCTURA PRINCIPAL
+   ======================================== */
+
+/* Contenedor general de la aplicacion */
+.layout {
+    display: flex;
+    min-height: 100vh;
+    width: 100%;
 }
 
-.content{
-    flex:1;
-    padding:20px;
+/* Area donde se muestra cada modulo */
+.main-content {
+    flex: 1;
+    min-width: 0;
+    padding: 28px;
+    background-color: var(--color-background);
+}
+
+/* Ajustes para pantallas medianas */
+@media (max-width: 1024px) {
+    .main-content {
+        padding: 22px;
+    }
+}
+
+/* Ajustes para pantallas pequeñas */
+@media (max-width: 768px) {
+    .layout {
+        flex-direction: column;
+    }
+
+    .main-content {
+        padding: 18px;
+    }
 }
